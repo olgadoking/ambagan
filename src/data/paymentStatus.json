@@ -1,0 +1,20 @@
+[
+  {
+    "tripId": "acro-2026",
+    "from": "Jasper",
+    "to": "King",
+    "amount": 833
+  },
+  {
+    "tripId": "acro-2026",
+    "from": "King",
+    "to": "Jasper",
+    "amount": 829
+  },
+  {
+    "tripId": "acro-2026",
+    "from": "Claire",
+    "to": "King",
+    "amount": 1504
+  }
+]

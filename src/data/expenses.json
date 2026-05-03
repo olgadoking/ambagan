@@ -1,0 +1,224 @@
+[
+    {
+        "tripId": "acro-2026",
+        "category": "Food & Drinks",
+        "description": "Dinner sa Cafe de Margeux",
+        "amount": 3000,
+        "paidBy": "Jasper",
+        "shares": [
+            {
+                "name": "King",
+                "amount": 757, 
+                "breakdown" : {
+                    "Drink" : "Caramel Popcorn - 245",
+                    "Food" : "Shared - 512"   
+                }
+            },
+            {
+                "name": "Claire",
+                "amount": 707,
+                "breakdown" : {
+                    "Drink" : "Salted Creamy Latte - 195",
+                    "Food" : "Shared - 512"   
+                }
+            },
+            {
+                "name": "Dave",
+                "amount": 512,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 512"   
+                }
+            },
+            {
+                "name": "Abbie",
+                "amount": 512,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 512"   
+                }
+            },
+            {
+                "name": "Jasper",
+                "amount": 512,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 512"   
+                }
+            }
+        ]
+    },
+    {
+        "tripId": "acro-2026",
+        "category": "Food & Drinks",
+        "description": "Snacks ni Kuya Japs",
+        "amount": 360,
+        "paidBy": "Jasper",
+        "shares": [
+            {
+                "name": "King",
+                "amount": 72,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 72"   
+                }
+            },
+            {
+                "name": "Claire",
+                "amount": 72,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 72"   
+                }
+            },
+            {
+                "name": "Dave",
+                "amount": 72,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 72"   
+                }
+            },
+            {
+                "name": "Abbie",
+                "amount": 72,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 72"   
+                }
+            },
+            {
+                "name": "Jasper",
+                "amount": 72,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared - 72"   
+                }
+            }
+        ]
+    },
+    {
+        "tripId": "acro-2026",
+        "category": "Food & Drinks",
+        "description": "Breakfast sa Pool Side",
+        "amount": 1594,
+        "paidBy": "King",
+        "shares": [
+            {
+                "name": "King",
+                "amount": 584,
+                "breakdown" : {
+                    "Drink" : "Dark Choco Milkshake - 195",
+                    "Food" : "Sisig w/ Rice - 389"   
+                }
+            },
+            {
+                "name": "Claire",
+                "amount": 370,
+                "breakdown" : {
+                    "Drink" : "Iced Tea - 120",
+                    "Food" : "Fruit Platter - 245"   
+                }
+            },
+            {
+                "name": "Dave",
+                "amount": 260,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Pancake & Eggs - 260"   
+                }
+            },
+            {
+                "name": "Abbie",
+                "amount": 380,
+                "breakdown" : {
+                    "Drink" : "White Choco Mocha - 185",
+                    "Food" : "Waffle - 195"   
+                }
+            }
+        ]
+    },
+    {
+        "tripId": "acro-2026",
+        "category": "Food & Drinks",
+        "description": "Snacks sa Pool Side",
+        "amount": 1014,
+        "paidBy": "King",
+        "shares": [
+            {
+                "name": "King",
+                "amount": 301,
+                "breakdown" : {
+                    "Drink" : "Dark Choco Milkshake - 195",
+                    "Food" : "Shared Nachos - 106"   
+                }
+            },
+            {
+                "name": "Claire",
+                "amount": 301,
+                "breakdown" : {
+                    "Drink" : "Dark Choco Milkshake - 195",
+                    "Food" : "Shared Nachos - 106"   
+                }
+            },
+            {
+                "name": "Dave",
+                "amount": 106,
+                "breakdown" : {
+                    "Drink" : "",
+                    "Food" : "Shared Nachos - 106"   
+                }
+            },
+            {
+                "name": "Abbie",
+                "amount": 306,
+                "breakdown" : {
+                    "Drink" : "Black and White Mocha - 200",
+                    "Food" : "Shared Nachos - 106"   
+                }
+            }
+        ]
+    },
+    {
+        "tripId": "acro-2026",
+        "category": "Accommodation",
+        "description": "Hotel Accommodation",
+        "amount": 4165,
+        "paidBy": "King",
+        "shares": [
+            {
+                "name": "King",
+                "amount": 833
+            },
+            {
+                "name": "Claire",
+                "amount": 833
+            },
+            {
+                "name": "Dave",
+                "amount": 833
+            },
+            {
+                "name": "Abbie",
+                "amount": 833
+            },
+            {
+                "name": "Jasper",
+                "amount": 833
+            }
+        ]
+    },
+    {
+        "tripId": "acro-2026",
+        "category": "Damages",
+        "description": "Nabasag na baso",
+        "amount": 150,
+        "paidBy": "King",
+        "shares": [
+            {
+                "name": "Dave",
+                "amount": 150
+            }
+        ]
+    }
+]
