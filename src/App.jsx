@@ -29,10 +29,10 @@ import receiptConfig from "./data/receiptConfig.json";
 import paymentStatus from "./data/paymentStatus.json";
 
 const tabs = [
-  { id: "trips", label: "Trips", shortLabel: "Trips", icon: Plane, description: "Browse each barkada trip like folders. Latest adventures appear first." },
+  { id: "trips", label: "Trips", shortLabel: "Trips", icon: Plane, description: "Latest trips appear first." },
   { id: "contributions", label: "Contributions", shortLabel: "Money", icon: WalletCards, description: "See total spend, who paid, who still owes, and who should receive." },
   { id: "dashboard", label: "Dashboard", shortLabel: "Stats", icon: BarChart3, description: "Track spending patterns, biggest expenses, categories, and trip highlights." },
-  { id: "memories", label: "Memories", shortLabel: "Media", icon: Images, description: "Photos, videos, reviews, and unforgettable gastos moments." }
+  { id: "memories", label: "Memories", shortLabel: "Media", icon: Images, description: "Photos, videos and reviews." }
 ];
 
 const money = new Intl.NumberFormat("en-PH", {
@@ -508,7 +508,7 @@ function ExpenseBreakdown({ tripExpenses }) {
                 <table className="min-w-[600px] whitespace-nowrap text-left text-sm">
                   <thead className="bg-white/[0.06] text-slate-300">
                     <tr>
-                      <th className="px-4 py-3">Person</th>
+                      <th className="sticky left-0 z-20 bg-slate-900 px-4 py-3">Friend</th>
                       <th className="px-4 py-3">Breakdown</th>
                       <th className="px-4 py-3">Share</th>
                     </tr>
@@ -517,7 +517,7 @@ function ExpenseBreakdown({ tripExpenses }) {
                   <tbody>
                     {(expense.shares || []).map((share) => (
                       <tr key={share.name} className="border-t border-white/10 text-slate-300">
-                        <td className="px-4 py-3 font-semibold text-white">
+                        <td className="sticky left-0 z-10 bg-slate-950 px-4 py-3 font-semibold text-white">
                           {share.name}
                         </td>
 
@@ -770,7 +770,7 @@ function ContributionsPage({ allExpenses, addExpense, allPayments, addPayment })
         <table className="min-w-[700px] whitespace-nowrap text-left text-sm">
           <thead className="bg-white/[0.06] text-slate-300">
             <tr>
-              <th className="px-4 py-3">Friend</th>
+              <th className="sticky left-0 z-20 bg-slate-900 px-4 py-3">Friend</th>
               <th className="px-4 py-3">Paid</th>
               <th className="px-4 py-3">Share</th>
               <th className="px-4 py-3">Abono</th>
@@ -780,7 +780,9 @@ function ContributionsPage({ allExpenses, addExpense, allPayments, addPayment })
           <tbody>
             {balances.map((row) => (
               <tr key={row.person} className="border-t border-white/10 text-slate-300">
-                <td className="px-4 py-3 font-semibold text-white">{row.person}</td>
+                <td className="sticky left-0 z-10 bg-slate-950 px-4 py-3 font-semibold text-white">
+                  {row.person}
+                </td>
                 <td className="px-4 py-3">{money.format(row.paid)}</td>
                 <td className="px-4 py-3">{money.format(row.share)}</td>
                 <td className="text-emerald-300">
