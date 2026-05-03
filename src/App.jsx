@@ -505,7 +505,7 @@ function ExpenseBreakdown({ tripExpenses }) {
               </div>
 
               <div className="mt-4 w-full overflow-x-auto rounded-2xl border border-white/10">
-                <table className="min-w-[600px] whitespace-nowrap text-left text-sm">
+                <table className="w-full min-w-[600px] whitespace-nowrap text-left text-sm">
                   <thead className="bg-white/[0.06] text-slate-300">
                     <tr>
                       <th className="sticky left-0 z-20 bg-slate-900 px-4 py-3">Friend</th>
@@ -767,7 +767,7 @@ function ContributionsPage({ allExpenses, addExpense, allPayments, addPayment })
       </div>
 
       <div className="mt-6 w-full overflow-x-auto rounded-3xl border border-white/10">
-        <table className="min-w-[700px] whitespace-nowrap text-left text-sm">
+        <table className="w-full min-w-[700px] whitespace-nowrap text-left text-sm">
           <thead className="bg-white/[0.06] text-slate-300">
             <tr>
               <th className="sticky left-0 z-20 bg-slate-900 px-4 py-3">Friend</th>
