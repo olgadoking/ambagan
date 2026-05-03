@@ -504,8 +504,8 @@ function ExpenseBreakdown({ tripExpenses }) {
                 </span>
               </div>
 
-              <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
-                <table className="w-full text-left text-sm">
+              <div className="mt-4 w-full overflow-x-auto rounded-2xl border border-white/10">
+                <table className="min-w-[600px] whitespace-nowrap text-left text-sm">
                   <thead className="bg-white/[0.06] text-slate-300">
                     <tr>
                       <th className="px-4 py-3">Person</th>
@@ -766,8 +766,8 @@ function ContributionsPage({ allExpenses, addExpense, allPayments, addPayment })
         <MetricCard label="Highest Paid" value={highestPaid} />
       </div>
 
-      <div className="mt-6 overflow-hidden rounded-3xl border border-white/10">
-        <table className="w-full text-left text-sm">
+      <div className="mt-6 w-full overflow-x-auto rounded-3xl border border-white/10">
+        <table className="min-w-[700px] whitespace-nowrap text-left text-sm">
           <thead className="bg-white/[0.06] text-slate-300">
             <tr>
               <th className="px-4 py-3">Friend</th>
