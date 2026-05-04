@@ -22,5 +22,11 @@
     "from": "Dave",
     "to": "King",
     "amount": 1349
+  },
+  {
+    "tripId": "acro-2026",
+    "from": "Claire",
+    "to": "Jasper",
+    "amount": 779
   }
 ]
