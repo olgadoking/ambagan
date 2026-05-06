@@ -28,5 +28,11 @@
     "from": "Claire",
     "to": "Jasper",
     "amount": 779
+  },
+  {
+    "tripId": "acro-2026",
+    "from": "Dave",
+    "to": "Jasper",
+    "amount": 584
   }
 ]
