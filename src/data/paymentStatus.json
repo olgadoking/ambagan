@@ -40,5 +40,11 @@
     "from": "Abbie",
     "to": "King",
     "amount": 1519
+  },
+  {
+    "tripId": "acro-2026",
+    "from": "Abbie",
+    "to": "Jasper",
+    "amount": 584
   }
 ]
