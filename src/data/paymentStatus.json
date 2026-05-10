@@ -46,5 +46,17 @@
     "from": "Abbie",
     "to": "Jasper",
     "amount": 584
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Claire",
+    "to": "King",
+    "amount": 175
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Allen",
+    "to": "King",
+    "amount": 170
   }
 ]
