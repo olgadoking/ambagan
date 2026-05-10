@@ -230,31 +230,31 @@
         "shares": [
             {
                 "name": "Adrian",
-                "amount": 170
+                "amount": 150
             },
             {
                 "name": "Jomar",
-                "amount": 170
+                "amount": 150
             },
             {
                 "name": "Jasper",
-                "amount": 170
+                "amount": 150
             },
             {
                 "name": "Rose Ann",
-                "amount": 170
+                "amount": 150
             },
             {
                 "name": "King",
-                "amount": 175
+                "amount": 300
             },
             {
                 "name": "Claire",
-                "amount": 175
+                "amount": 150
             },
             {
                 "name": "Allen",
-                "amount": 170
+                "amount": 150
             }
         ]
     }
