@@ -220,5 +220,42 @@
                 "amount": 150
             }
         ]
+    },
+    {
+        "tripId": "badminton1-2026",
+        "category": "Badminton",
+        "description": "Badminton Court Rent",
+        "amount": 1200,
+        "paidBy": "King",
+        "shares": [
+            {
+                "name": "Adrian",
+                "amount": 170
+            },
+            {
+                "name": "Jomar",
+                "amount": 170
+            },
+            {
+                "name": "Jasper",
+                "amount": 170
+            },
+            {
+                "name": "Rose Ann",
+                "amount": 170
+            },
+            {
+                "name": "King",
+                "amount": 175
+            },
+            {
+                "name": "Claire",
+                "amount": 175
+            },
+            {
+                "name": "Allen",
+                "amount": 170
+            }
+        ]
     }
 ]
