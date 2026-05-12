@@ -58,5 +58,29 @@
     "from": "Allen",
     "to": "King",
     "amount": 150
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Jasper",
+    "to": "King",
+    "amount": 150
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Rose Ann",
+    "to": "King",
+    "amount": 150
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Jomar",
+    "to": "King",
+    "amount": 150
+  },
+  {
+    "tripId": "badminton1-2026",
+    "from": "Adrian",
+    "to": "King",
+    "amount": 150
   }
 ]
